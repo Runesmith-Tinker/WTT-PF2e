@@ -1,0 +1,11 @@
+{
+  "id": "wwt",
+  "title": "WWT",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "This is a Foundry VTT module built off of the WWT addon by EldritchDeam, designed for PF2e. The Scribe page for further information can be found here: <a href=\"https://scribe.pf2.tools/v/flwJX5SJ-items-wwt\">World War Tech</a>",
+  "url": "https://github.com/Runesmith-Tinker/WTT-PF2e"
+}
