@@ -1,11 +1,94 @@
 {
   "id": "wwt",
-  "title": "WWT",
+  "title": "World War Technology",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
   "description": "This is a Foundry VTT module built off of the WWT addon by EldritchDeam, designed for PF2e. The Scribe page for further information can be found here: <a href=\"https://scribe.pf2.tools/v/flwJX5SJ-items-wwt\">World War Tech</a>",
-  "url": "https://github.com/Runesmith-Tinker/WTT-PF2e"
+  "url": "https://github.com/Runesmith-Tinker/WTT-PF2e",
+  "packs": [],
+  "flags": {
+    "wwt": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+
+        },
+        "featTraits": {
+          
+        },
+        "weaponTraits": {
+          "automatic-3": {
+            "label": "Automatic 3",
+            "description": "Automatic weapons are accompanied by a number, this is the amount of ammunition consumed by using the Automatic Fire Activity which you have access to when using an automatic weapon."
+          },
+          "automatic-8": {
+            "label": "Automatic 8",
+            "description": "Automatic weapons are accompanied by a number, this is the amount of ammunition consumed by using the Automatic Fire Activity which you have access to when using an automatic weapon."
+          },
+          "automatic-10": {
+            "label": "Automatic 10",
+            "description": "Automatic weapons are accompanied by a number, this is the amount of ammunition consumed by using the Automatic Fire Activity which you have access to when using an automatic weapon."
+          },
+          "choke-1": {
+            "label": "Choke 1",
+            "description": "Scatter weapons with the Choke trait trade a smaller area of splash damage but increase the splash damage by the number that accompanies the choke trait."
+          },
+          "choke-2": {
+            "label": "Choke 2",
+            "description": "Scatter weapons with the Choke trait trade a smaller area of splash damage but increase the splash damage by the number that accompanies the choke trait."
+          },
+          "Powered-2-s": {
+            "label": "Powered 2 S",
+            "description": "Powered is always accompanied by a damage type and a value (eg. powered 1 S). You can load a powered weapon with an energy cell"
+          },
+          "semi-auto": {
+            "label": "Semi-Auto",
+            "description": "Semi-auto weapons function like Capacity weapons, except they automatically switch to the next chamber or barrel after you fire the weapon instead of requiring an action."
+          },
+          "sticky": {
+            "label": "Sticky",
+            "description": "Weapons with the sticky trait deal persistent damage matching the type they deal on a strike equal to 1 for every damage die the weapon has on a critical hit. when the weapon becomes +3 the persistent damage increases to 2 per weapon damage die."
+          },
+          "capacity-6": {
+            "label": "Capacity 6",
+            "description": "This trait denotes the amount in Light Bult that can be stored."
+          },
+          "capacity-7": {
+            "label": "Capacity 7",
+            "description": "This trait denotes the amount in Light Bult that can be stored."
+          },
+          "volley-10-ft": {
+            "label": "Volley 10 ft.",
+            "description": "This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a -2 penalty."
+          }
+        },
+        "spellTraits": {
+          
+        },
+        "languages": {
+          
+        },
+        "equipmentTraits": {
+          "capacity-6": {
+            "label": "Capacity 6",
+            "description": "This trait denotes the amount in Light Bult that can be stored."
+          },
+          "capacity-7": {
+            "label": "Capacity 7",
+            "description": "This trait denotes the amount in Light Bult that can be stored."
+          },
+          "cannister": {
+            "label": "Cannister",
+            "description": "Some weapons use gasses or fluids stored in canisters, these canisters are heavy, weighing 1 bulk and housing a number of shots listed in their ammo entry. They tend to be filled with alchemical fluids and may have the alchemical trait. these otherwise count as a magazine for the repeating trait."
+          },
+          "cartridge": {
+            "label": "Cartridge",
+            "description": "Cartridge ammunition is sealed in a casing (typically made of metal), filled with gunpowder, and capped with the projectile to be fired, Cartridge casings need to be removed or ejected before a new round of ammunition can be placed in the weapon, this is generally done as part of reloading. Due to the advanced compact nature of the ammunition, two Cartridge rounds can be loaded into a weapon with a single reload interact action. Weapons with magazines automatically eject their casings. Cartridges are capable of being fired underwater and are not ruined by exposure to water, but long-term exposure may cause them to leak."
+          }
+        }
+      }
+    }
+  }
 }
