@@ -174,8 +174,8 @@
         "wwt-items",
         "wwt-weapons",
         "wwt-notes",
-        "wwt-weapon-property-runes",
-        "wwt-magitech"
+        "wwt-magitech",
+        "wwt-weapon-property-runes"
       ]
     }
   ]
