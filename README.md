@@ -1,0 +1,3 @@
+# World War Tech
+This is a module not of my own creation, but instead one made by EldritchDream, posted to https://www.reddit.com/r/Pathfinder2e/comments/qkvgxk/world_war_tech_v051_updates/
+WHile it hasn't been updated since before the remaster, I've done the best I can to transfer things over. Most of the descriptions are simply copy-pasted, so if there are any errors or usage of legace terms like flat-footed instead of off-gurad, I apologize. For the most part I simply like the content added by it, especially with lending to allowing for a little more modern of a setting with more advanced technologies that compete with magic.
