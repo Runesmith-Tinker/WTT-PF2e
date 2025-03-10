@@ -41,7 +41,7 @@
           },
           "Powered-2-s": {
             "label": "Powered 2 S",
-            "description": "Powered is always accompanied by a damage type and a value (eg. powered 1 S). You can load a powered weapon with an energy cell"
+            "description": "Powered is always accompanied by a damage type and a value (eg. powered 1 S). You can load a powered weapon with an energy cell). You gain access to the Power Weapon action when you wield a powered weapon. Replacing the energy cell takes three interact actions that do not need to be consecutive (One to remove the spent cell, one to draw a new cell, and a third to load the new cell)"
           },
           "semi-auto": {
             "label": "Semi-Auto",
@@ -59,7 +59,7 @@
             "label": "Capacity 7",
             "description": "This trait denotes the amount in Light Bult that can be stored."
           },
-          "volley-10-ft": {
+          "volley-10": {
             "label": "Volley 10 ft.",
             "description": "This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a -2 penalty."
           }
@@ -86,9 +86,97 @@
           "cartridge": {
             "label": "Cartridge",
             "description": "Cartridge ammunition is sealed in a casing (typically made of metal), filled with gunpowder, and capped with the projectile to be fired, Cartridge casings need to be removed or ejected before a new round of ammunition can be placed in the weapon, this is generally done as part of reloading. Due to the advanced compact nature of the ammunition, two Cartridge rounds can be loaded into a weapon with a single reload interact action. Weapons with magazines automatically eject their casings. Cartridges are capable of being fired underwater and are not ruined by exposure to water, but long-term exposure may cause them to leak."
+          },
+          "grenade": {
+            "label": "Grenade",
+            "description": "Items with this trait have a short delay before exploding in a burst, they detonate at the beginning of the next turn of the creature that activated it, therefore being unable to place its area in the air (except when falling great distances). An additional action with the concentrate trait can be used to activate the grenade, when you do so, the grenade explodes sooner, allowing you to place its center point in the air and causing it to detonate immediately upon reaching its target."
+          },
+          "skybomb": {
+            "label": "Skybomb",
+            "description": "skybombs are specially bundled or built explosives and ordinances meant to be dropped from great height to the ground where the great force of falling detonates them. Normal bumps and dings will not detonate a skybomb, though breaking the skybomb and then striking its detonator or dealing fire damage will cause them to explode."
           }
         }
       }
     }
-  }
+  },
+  "packs": [
+    {
+      "label": "WWT - Items",
+      "type": "Item",
+      "name": "wwt-items",
+      "path": "./packs/wwt-items",
+      "system": "pf2e",
+      "package": "pf2e-wwt",
+      "banner": "modules/wwt/assets/banners/items.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "WWT - Weapons",
+      "type": "Item",
+      "name": "wwt-weapons",
+      "path": "./packs/wwt-weapons",
+      "system": "pf2e",
+      "package": "pf2e-wwt",
+      "banner": "modules/wwt/assets/banners/weapons.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "WWT - Notes",
+      "type": "JournalEntry",
+      "name": "wwt-notes",
+      "path": "./packs/wwt-notes",
+      "system": "pf2e",
+      "package": "pf2e-wwt",
+      "banner": "modules/wwt/assets/banners/notes.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "WWT - Weapon Property Runes",
+      "type": "Item",
+      "name": "wwt-weapon-property-runes",
+      "path": "./packs/wwt-weapon-property-runes",
+      "system": "pf2e",
+      "package": "pf2e-wwt",
+      "banner": "modules/wwt/assets/banners/weapon-property-runes.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "label": "WWT - Magitech",
+      "type": "Item",
+      "name": "wwt-magitech",
+      "path": "./packs/wwt-magitech",
+      "system": "pf2e",
+      "package": "pf2e-wwt",
+      "banner": "modules/wwt/assets/banners/magitech.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Pf2e - WWT",
+      "sorting": "m",
+      "packs": [
+        "wwt-items",
+        "wwt-weapons",
+        "wwt-notes",
+        "wwt-weapon-property-runes",
+        "wwt-magitech"
+      ]
+    }
+  ]
 }
