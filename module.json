@@ -8,16 +8,73 @@
   },
   "description": "This is a Foundry VTT module built off of the WWT addon by EldritchDeam, designed for PF2e. The Scribe page for further information can be found here: <a href=\"https://scribe.pf2.tools/v/flwJX5SJ-items-wwt\">World War Tech</a>",
   "url": "https://github.com/Runesmith-Tinker/WTT-PF2e",
-  "packs": [],
+  "packs": [
+    {
+      "name": "wwt-items",
+      "label": "WWT - Items",
+      "banner": "modules/wwt/assets/banners/items.webp",
+      "path": "packs/wwt-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wwt-weapons",
+      "label": "WWT - Weapons",
+      "banner": "modules/wwt/assets/banners/weapons.webp",
+      "path": "packs/wwt-weapons",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wwt-notes",
+      "label": "WWT - Notes",
+      "banner": "modules/wwt/assets/banners/notes.webp",
+      "path": "packs/wwt-notes",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wwt-weapon-property-runes",
+      "label": "WWT - Weapon Property Runes",
+      "banner": "modules/wwt/assets/banners/weapon-property-runes.webp",
+      "path": "packs/wwt-weapon-property-runes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "wwt-magitech",
+      "label": "WWT - Magitech",
+      "banner": "modules/wwt/assets/banners/magitech.webp",
+      "path": "packs/wwt-magitech",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "flags": {
     "wwt": {
       "pf2e-homebrew": {
-        "creatureTraits": {
-
-        },
-        "featTraits": {
-          
-        },
+        "creatureTraits": {},
+        "featTraits": {},
         "weaponTraits": {
           "automatic-3": {
             "label": "Automatic 3",
@@ -64,12 +121,8 @@
             "description": "This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a -2 penalty."
           }
         },
-        "spellTraits": {
-          
-        },
-        "languages": {
-          
-        },
+        "spellTraits": {},
+        "languages": {},
         "equipmentTraits": {
           "capacity-6": {
             "label": "Capacity 6",
@@ -99,73 +152,6 @@
       }
     }
   },
-  "packs": [
-    {
-      "label": "WWT - Items",
-      "type": "Item",
-      "name": "wwt-items",
-      "path": "./packs/wwt-items",
-      "system": "pf2e",
-      "package": "pf2e-wwt",
-      "banner": "modules/wwt/assets/banners/items.webp",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "WWT - Weapons",
-      "type": "Item",
-      "name": "wwt-weapons",
-      "path": "./packs/wwt-weapons",
-      "system": "pf2e",
-      "package": "pf2e-wwt",
-      "banner": "modules/wwt/assets/banners/weapons.webp",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "WWT - Notes",
-      "type": "JournalEntry",
-      "name": "wwt-notes",
-      "path": "./packs/wwt-notes",
-      "system": "pf2e",
-      "package": "pf2e-wwt",
-      "banner": "modules/wwt/assets/banners/notes.webp",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "WWT - Weapon Property Runes",
-      "type": "Item",
-      "name": "wwt-weapon-property-runes",
-      "path": "./packs/wwt-weapon-property-runes",
-      "system": "pf2e",
-      "package": "pf2e-wwt",
-      "banner": "modules/wwt/assets/banners/weapon-property-runes.webp",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "label": "WWT - Magitech",
-      "type": "Item",
-      "name": "wwt-magitech",
-      "path": "./packs/wwt-magitech",
-      "system": "pf2e",
-      "package": "pf2e-wwt",
-      "banner": "modules/wwt/assets/banners/magitech.webp",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
   "packFolders": [
     {
       "name": "Pf2e - WWT",
@@ -176,7 +162,21 @@
         "wwt-notes",
         "wwt-magitech",
         "wwt-weapon-property-runes"
-      ]
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "authors": [
+    {
+      "name": "EldritchDream",
+      "url": "https://twitter.com/EldritchDream",
+      "flags": {}
+    },
+    {
+      "name": "Runesmith Tinker",
+      "url": "https://github.com/Runesmith-Tinker",
+      "flags": {}
     }
   ]
 }
