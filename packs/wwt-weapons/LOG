@@ -1,8 +1,24 @@
-2025/03/30-01:05:17.793 6df4 Recovering log #263
-2025/03/30-01:05:17.853 6df4 Delete type=0 #263
-2025/03/30-01:05:17.853 6df4 Delete type=3 #261
-2025/03/30-08:27:59.567 27c0 Level-0 table #268: started
-2025/03/30-08:27:59.567 27c0 Level-0 table #268: 0 bytes OK
-2025/03/30-08:27:59.600 27c0 Delete type=0 #266
-2025/03/30-08:27:59.622 27c0 Manual compaction at level-0 from '!folders!0cAhPUtFNcqeXzSv' @ 72057594037927935 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at (end)
-2025/03/30-08:27:59.622 27c0 Manual compaction at level-1 from '!folders!0cAhPUtFNcqeXzSv' @ 72057594037927935 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at (end)
+2025/08/19-23:11:23.459 91c Recovering log #630
+2025/08/19-23:11:23.459 91c Level-0 table #632: started
+2025/08/19-23:11:23.485 91c Level-0 table #632: 1966 bytes OK
+2025/08/19-23:11:23.558 91c Delete type=0 #630
+2025/08/19-23:11:23.558 91c Delete type=3 #629
+2025/08/19-23:31:43.123 8dc4 Level-0 table #635: started
+2025/08/19-23:31:43.166 8dc4 Level-0 table #635: 22280 bytes OK
+2025/08/19-23:31:43.212 8dc4 Delete type=0 #633
+2025/08/19-23:31:43.212 8dc4 Manual compaction at level-0 from '!folders!0cAhPUtFNcqeXzSv' @ 72057594037927935 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at '!items!O2nEbSyPGhbzvERv' @ 403 : 1
+2025/08/19-23:31:43.212 8dc4 Compacting 2@0 + 0@1 files
+2025/08/19-23:31:43.281 8dc4 Generated table #636@0: 18 keys, 19516 bytes
+2025/08/19-23:31:43.281 8dc4 Compacted 2@0 + 0@1 files => 19516 bytes
+2025/08/19-23:31:43.356 8dc4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/19-23:31:43.356 8dc4 Delete type=2 #632
+2025/08/19-23:31:43.356 8dc4 Delete type=2 #635
+2025/08/19-23:31:43.408 8dc4 Manual compaction at level-0 from '!items!O2nEbSyPGhbzvERv' @ 403 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at (end)
+2025/08/19-23:31:43.473 8dc4 Manual compaction at level-1 from '!folders!0cAhPUtFNcqeXzSv' @ 72057594037927935 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at '!items!zkRVlVWiXChbAYhW' @ 410 : 1
+2025/08/19-23:31:43.473 8dc4 Compacting 1@1 + 1@2 files
+2025/08/19-23:31:43.507 8dc4 Generated table #637@1: 39 keys, 39530 bytes
+2025/08/19-23:31:43.507 8dc4 Compacted 1@1 + 1@2 files => 39530 bytes
+2025/08/19-23:31:43.545 8dc4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/19-23:31:43.545 8dc4 Delete type=2 #530
+2025/08/19-23:31:43.545 8dc4 Delete type=2 #636
+2025/08/19-23:31:43.545 8dc4 Manual compaction at level-1 from '!items!zkRVlVWiXChbAYhW' @ 410 : 1 .. '!items!zkRVlVWiXChbAYhW' @ 0 : 0; will stop at (end)

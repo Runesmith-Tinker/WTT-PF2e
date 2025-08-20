@@ -1,12 +1,12 @@
 {
   "id": "wwt",
   "title": "World War Technology",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
-  "description": "This is a Foundry VTT module built off of the WWT addon by EldritchDeam, designed for PF2e. The Scribe page for further information can be found here: <a href=\"https://scribe.pf2.tools/v/flwJX5SJ-items-wwt\">World War Tech</a>",
+  "description": "<p>This is a Foundry VTT module built off of the WWT addon by EldritchDeam, designed for PF2e. The Scribe page for further information can be found here: <a href=\"https://scribe.pf2.tools/v/flwJX5SJ-items-wwt\">World War Tech</a></p>",
   "url": "https://github.com/Runesmith-Tinker/WTT-PF2e",
   "packs": [
     {
@@ -163,16 +163,18 @@
   "packFolders": [
     {
       "name": "Pf2e - WWT",
-      "sorting": "m",
+      "sorting": "a",
+      "color": null,
+      "ownership": {
+        "PLAYER": "NONE"
+      },
       "packs": [
         "wwt-items",
         "wwt-weapons",
         "wwt-notes",
         "wwt-magitech",
         "wwt-weapon-property-runes"
-      ],
-      "color": null,
-      "folders": []
+      ]
     }
   ],
   "authors": [
