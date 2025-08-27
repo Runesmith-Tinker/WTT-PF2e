@@ -1,7 +1,7 @@
 {
   "id": "wwt",
   "title": "World War Technology",
-  "version": "1.1.1",
+  "version": "1.1.0",
   "compatibility": {
     "minimum": "12",
     "verified": "13"
@@ -98,7 +98,7 @@
           },
           "Powered-2-s": {
             "label": "Powered 2 S",
-            "description": "Powered is always accompanied by a damage type and a value (eg. powered 1 S). You can load a powered weapon with an energy cell). You gain access to the Power Weapon action when you wield a powered weapon. Replacing the energy cell takes three interact actions that do not need to be consecutive (One to remove the spent cell, one to draw a new cell, and a third to load the new cell)"
+            "description": "Powered is always accompanied by a damage type and a value (eg. powered 1 S). You can load a powered weapon with an energy cell. You gain access to the Power Weapon action when you wield a powered weapon. Replacing the energy cell takes three interact actions that do not need to be consecutive (One to remove the spent cell, one to draw a new cell, and a third to load the new cell)"
           },
           "semi-auto": {
             "label": "Semi-Auto",
@@ -127,6 +127,14 @@
           "volley-10": {
             "label": "Volley 10 ft.",
             "description": "This ranged weapon is less effective at close distances. Your attacks against targets that are at a distance within the range listed take a -2 penalty."
+          },
+          "energized": {
+            "label": "Energized",
+            "description": "You can load an energized weapon with an energy cell. You gain access to the Charge Weapon action when you wield a powered weapon. Replacing the energy cell takes three interact actions that do not need to be consecutive (One to remove the spent cell, one to draw a new cell, and a third to load the new cell)"
+          },
+          "technological": {
+            "label": "Technological",
+            "description": "Something with the technological trait is made of, or produces effects primarily from an advanced technological influence instead of a magical one. Effects produced with this trait may have similarities to magic, but are not magical. Though some fusions of magic and technology exist. Technological items and effects are identified with the Craft skill but otherwise follow the rules for identifying magic."
           }
         },
         "spellTraits": {},
@@ -147,6 +155,10 @@
           "cartridge": {
             "label": "Cartridge",
             "description": "Cartridge ammunition is sealed in a casing (typically made of metal), filled with gunpowder, and capped with the projectile to be fired, Cartridge casings need to be removed or ejected before a new round of ammunition can be placed in the weapon, this is generally done as part of reloading. Due to the advanced compact nature of the ammunition, two Cartridge rounds can be loaded into a weapon with a single reload interact action. Weapons with magazines automatically eject their casings. Cartridges are capable of being fired underwater and are not ruined by exposure to water, but long-term exposure may cause them to leak."
+          },
+          "energy-cells": {
+            "label": "Energy Cells",
+            "description": "Some weapons and items use Energy cells, energy cells come in two varieties, single shot cells, which need to be reloaded every shot, and Energy Cells, which hold multiple shots and act as a magazine for repeating weapons."
           },
           "grenade": {
             "label": "Grenade",
